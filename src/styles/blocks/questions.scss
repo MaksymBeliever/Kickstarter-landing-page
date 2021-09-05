@@ -43,7 +43,7 @@
   &__field {
     display: block;
     @include width-height(100%, 48px);
-    padding: 16px 30px;
+    padding: 0 30px;
     box-sizing: border-box;
     border: 1px solid #828282;
     font-family: "Helvetica Neue", sans-serif;
@@ -91,6 +91,7 @@
 
   &--textarea {
     height: 128px;
+    padding: 16px 30px;
     resize: none;
   
     @include onTablet {
